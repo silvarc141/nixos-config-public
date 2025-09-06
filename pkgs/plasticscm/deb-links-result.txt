@@ -1,0 +1,10 @@
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-complete_11.0.16.8786_amd64.deb 102128abc0175f1038241f7e5f89e941715c87f6df5d4c1809fccfd328e4c084
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-client-complete_11.0.16.8786_amd64.deb 03a15613c0ec3cd96d884e56ade234896c7391959ba66185c2d0e84c94d3552a
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-client-core_11.0.16.8786_amd64.deb 4f24357ca1f98c98877b7d8f57f90e616bf55569d13646392ae2e8d32e143d99
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-client-gui_11.0.16.8786_amd64.deb 89e70d89364366b6710d9536a0a1df91aefe78f696053d72556d07254c5dfe3a
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-server-core_11.0.16.8786_amd64.deb afca8abcee63358ced0b2c64566e9e14edbda4566303a3ece0c7dc7ebc86fc56
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-theme_11.0.16.8786_amd64.deb 4d4fe9f8da559f9f448532ff9155319b5951ffe73bd0355b319d978f018f408f
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-certtools-mono4_3.12.1_amd64.deb 9e8ddd7cbec573cb12e2d00575a40f88e6c57346aac6059413aab3da846f70ab
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-gnome-sharp-mono4_2.24.0_amd64.deb 338fbede92a8ff75fc7cc51ddb8b8bcbe25e447bdf0b3b9c99b905ef64fed9bf
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-gtk-sharp-mono4_2.12.29_amd64.deb f6620e122dee594a284315eb864bce6ea2c9c52c57e2f69d25c92c90e16176c2
+https://www.plasticscm.com/plasticrepo/stable/debian/./amd64/plasticscm-mono4_4.6.2_amd64.deb c2a56507be32e5b365067934ff0077d52962604d7467e37acba2b98d3e931f36
