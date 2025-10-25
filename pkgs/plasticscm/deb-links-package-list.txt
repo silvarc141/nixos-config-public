@@ -1,0 +1,10 @@
+plasticscm-complete
+plasticscm-client-complete
+plasticscm-client-core
+plasticscm-client-gui
+plasticscm-server-core
+plasticscm-theme
+plasticscm-certtools-mono4
+plasticscm-gnome-sharp-mono4
+plasticscm-gtk-sharp-mono4
+plasticscm-mono4

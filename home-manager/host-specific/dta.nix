@@ -1,0 +1,1 @@
+{...}: {programs.waydroid.enable = true;}

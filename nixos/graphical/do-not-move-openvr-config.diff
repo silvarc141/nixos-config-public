@@ -1,0 +1,8 @@
+--- a/server/active_runtime.cpp
++++ b/server/active_runtime.cpp
+@@ -93,1 +93,2 @@ active_runtime::active_runtime() :
+ 	{
++		/*
+@@ -109,1 +109,2 @@ active_runtime::active_runtime() :
+ 		}
++		*/

@@ -1,0 +1,39 @@
+name: Mirror without history
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+jobs:
+  mirror-without-history:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Clone private nixos-config without history
+        uses: GuillaumeFalourd/clone-github-repo-action@v2.1
+        with:
+          owner: 'silvarc141'
+          repository: 'nixos-config'
+          depth: 1
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+      - name: Move
+        run: |
+          mv nixos-config .nixos-config
+          rm -rf *
+          mv .nixos-config/* .
+      - name: Reset repo
+        run: |
+          rm -rf .git
+          git init
+      - name: Commit
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *
+          git add .github
+          git commit -m "update"
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          force: true
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.ACCESS_TOKEN }}

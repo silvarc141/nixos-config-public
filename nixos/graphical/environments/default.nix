@@ -1,0 +1,3 @@
+{customUtils, ...}: {
+  imports = customUtils.getImportable ./.;
+}
